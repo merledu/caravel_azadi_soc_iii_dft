@@ -17,7 +17,7 @@
 // Designed by a Team at Micro Electronics Research Lab, Usman Institute of Technology.
 // https://www.merledupk.org
 `default_nettype wire
-`define MPRJ_IO_PADS 38
+`define MPRJ_IO_PADS 32
 module azadi_soc_top_caravel (
   `ifdef USE_POWER_PINS
       inout vdda1,	// User area 1 3.3V supply

@@ -54,7 +54,7 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
- user_proj_example mprj (.vccd1(vccd1),
+ azadi_soc_top_caravel mprj (.vccd1(vccd1),
     .vssd1(vssd1),
     .wb_clk_i(wb_clk_i),
     .wb_rst_i(wb_rst_i),
@@ -176,7 +176,7 @@ module user_project_wrapper (user_clock2,
     io_out[2],
     io_out[1],
     io_out[0]}),
-    .irq({user_irq[2],
+    .user_irq({user_irq[2],
     user_irq[1],
     user_irq[0]}),
     .la_data_in({la_data_in[127],

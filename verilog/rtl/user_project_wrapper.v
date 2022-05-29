@@ -82,14 +82,16 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-user_proj_example mprj (
+azadi_soc_top_caravel mprj (
 `ifdef USE_POWER_PINS
+	
 	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
-`endif
+    .vssd1(vssd1),	// User area 1 digital ground
+    `endif
 
     .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+  .wb_rst_i(wb_rst_i),
+   	//.io_in[30](wb_rst_i),
 
     // MGMT SoC Wishbone Slave
 
@@ -109,13 +111,14 @@ user_proj_example mprj (
     .la_oenb (la_oenb),
 
     // IO Pads
-
-    .io_in (io_in),
+	
+    .io_in(io_in),
     .io_out(io_out),
     .io_oeb(io_oeb),
+  //  .analog_io(analog_io),
 
     // IRQ
-    .irq(user_irq)
+    .user_irq(user_irq)
 );
 
 endmodule	// user_project_wrapper
