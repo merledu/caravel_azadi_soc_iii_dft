@@ -17,7 +17,7 @@
 // Designed by a Team at Micro Electronics Research Lab, Usman Institute of Technology.
 // https://www.merledupk.org
 `default_nettype wire
-`define MPRJ_IO_PADS 32
+`define MPRJ_IO_PADS 38
 module azadi_soc_top_caravel (
   `ifdef USE_POWER_PINS
       inout vdda1,	// User area 1 3.3V supply
@@ -48,9 +48,9 @@ module azadi_soc_top_caravel (
     input  [127:0] la_oenb,
 
     // IOs, MPRJ_IO_PADS = 38
-    input  [`MPRJ_IO_PADS-1:0] io_in,  
-    output [`MPRJ_IO_PADS-1:0] io_out,
-    output [`MPRJ_IO_PADS-1:0] io_oeb,
+    input  [`MPRJ_IO_PADS-2:0] io_in,  
+    output [`MPRJ_IO_PADS-2:0] io_out,
+    output [`MPRJ_IO_PADS-2:0] io_oeb,
 
     // Analog (direct connection to GPIO pad---use with caution)
     // Note that analog I/O is not available on the 7 lowest-numbered

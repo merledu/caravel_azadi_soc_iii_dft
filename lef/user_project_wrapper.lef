@@ -76,7 +76,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 3460.260 2.400 3461.460 ;
+        RECT -4.800 3484.060 2.400 3485.260 ;
     END
   END analog_io[17]
   PIN analog_io[18]
@@ -84,7 +84,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2991.060 2.400 2992.260 ;
+        RECT -4.800 3207.980 2.400 3209.180 ;
     END
   END analog_io[18]
   PIN analog_io[19]
@@ -92,7 +92,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2521.860 2.400 2523.060 ;
+        RECT -4.800 2931.900 2.400 2933.100 ;
     END
   END analog_io[19]
   PIN analog_io[1]
@@ -108,7 +108,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2052.660 2.400 2053.860 ;
+        RECT -4.800 2655.820 2.400 2657.020 ;
     END
   END analog_io[20]
   PIN analog_io[21]
@@ -116,7 +116,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1582.780 2.400 1583.980 ;
+        RECT -4.800 2379.740 2.400 2380.940 ;
     END
   END analog_io[21]
   PIN analog_io[22]
@@ -124,9 +124,57 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1113.580 2.400 1114.780 ;
+        RECT -4.800 2103.660 2.400 2104.860 ;
     END
   END analog_io[22]
+  PIN analog_io[23]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1827.580 2.400 1828.780 ;
+    END
+  END analog_io[23]
+  PIN analog_io[24]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1551.500 2.400 1552.700 ;
+    END
+  END analog_io[24]
+  PIN analog_io[25]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1275.420 2.400 1276.620 ;
+    END
+  END analog_io[25]
+  PIN analog_io[26]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 999.340 2.400 1000.540 ;
+    END
+  END analog_io[26]
+  PIN analog_io[27]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 723.260 2.400 724.460 ;
+    END
+  END analog_io[27]
+  PIN analog_io[28]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 447.180 2.400 448.380 ;
+    END
+  END analog_io[28]
   PIN analog_io[2]
     DIRECTION INOUT ;
     USE SIGNAL ;
@@ -324,7 +372,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 3342.620 2.400 3343.820 ;
+        RECT -4.800 3415.380 2.400 3416.580 ;
     END
   END io_in[24]
   PIN io_in[25]
@@ -332,7 +380,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2873.420 2.400 2874.620 ;
+        RECT -4.800 3139.300 2.400 3140.500 ;
     END
   END io_in[25]
   PIN io_in[26]
@@ -340,7 +388,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2404.220 2.400 2405.420 ;
+        RECT -4.800 2863.220 2.400 2864.420 ;
     END
   END io_in[26]
   PIN io_in[27]
@@ -348,7 +396,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1935.020 2.400 1936.220 ;
+        RECT -4.800 2587.140 2.400 2588.340 ;
     END
   END io_in[27]
   PIN io_in[28]
@@ -356,7 +404,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1465.820 2.400 1467.020 ;
+        RECT -4.800 2311.060 2.400 2312.260 ;
     END
   END io_in[28]
   PIN io_in[29]
@@ -364,7 +412,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 996.620 2.400 997.820 ;
+        RECT -4.800 2034.980 2.400 2036.180 ;
     END
   END io_in[29]
   PIN io_in[2]
@@ -380,7 +428,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 644.380 2.400 645.580 ;
+        RECT -4.800 1758.900 2.400 1760.100 ;
     END
   END io_in[30]
   PIN io_in[31]
@@ -388,9 +436,49 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 292.820 2.400 294.020 ;
+        RECT -4.800 1482.820 2.400 1484.020 ;
     END
   END io_in[31]
+  PIN io_in[32]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1206.740 2.400 1207.940 ;
+    END
+  END io_in[32]
+  PIN io_in[33]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 930.660 2.400 931.860 ;
+    END
+  END io_in[33]
+  PIN io_in[34]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 654.580 2.400 655.780 ;
+    END
+  END io_in[34]
+  PIN io_in[35]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 378.500 2.400 379.700 ;
+    END
+  END io_in[35]
+  PIN io_in[36]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 171.100 2.400 172.300 ;
+    END
+  END io_in[36]
   PIN io_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -580,7 +668,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 3108.020 2.400 3109.220 ;
+        RECT -4.800 3277.340 2.400 3278.540 ;
     END
   END io_oeb[24]
   PIN io_oeb[25]
@@ -588,7 +676,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2638.820 2.400 2640.020 ;
+        RECT -4.800 3001.260 2.400 3002.460 ;
     END
   END io_oeb[25]
   PIN io_oeb[26]
@@ -596,7 +684,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2169.620 2.400 2170.820 ;
+        RECT -4.800 2725.180 2.400 2726.380 ;
     END
   END io_oeb[26]
   PIN io_oeb[27]
@@ -604,7 +692,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1700.420 2.400 1701.620 ;
+        RECT -4.800 2449.100 2.400 2450.300 ;
     END
   END io_oeb[27]
   PIN io_oeb[28]
@@ -612,7 +700,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1231.220 2.400 1232.420 ;
+        RECT -4.800 2173.020 2.400 2174.220 ;
     END
   END io_oeb[28]
   PIN io_oeb[29]
@@ -620,7 +708,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 762.020 2.400 763.220 ;
+        RECT -4.800 1896.940 2.400 1898.140 ;
     END
   END io_oeb[29]
   PIN io_oeb[2]
@@ -636,7 +724,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 409.780 2.400 410.980 ;
+        RECT -4.800 1620.860 2.400 1622.060 ;
     END
   END io_oeb[30]
   PIN io_oeb[31]
@@ -644,9 +732,49 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 58.220 2.400 59.420 ;
+        RECT -4.800 1344.780 2.400 1345.980 ;
     END
   END io_oeb[31]
+  PIN io_oeb[32]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1068.700 2.400 1069.900 ;
+    END
+  END io_oeb[32]
+  PIN io_oeb[33]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 792.620 2.400 793.820 ;
+    END
+  END io_oeb[33]
+  PIN io_oeb[34]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 516.540 2.400 517.740 ;
+    END
+  END io_oeb[34]
+  PIN io_oeb[35]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 240.460 2.400 241.660 ;
+    END
+  END io_oeb[35]
+  PIN io_oeb[36]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 33.740 2.400 34.940 ;
+    END
+  END io_oeb[36]
   PIN io_oeb[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
@@ -836,7 +964,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 3225.660 2.400 3226.860 ;
+        RECT -4.800 3346.020 2.400 3347.220 ;
     END
   END io_out[24]
   PIN io_out[25]
@@ -844,7 +972,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2756.460 2.400 2757.660 ;
+        RECT -4.800 3069.940 2.400 3071.140 ;
     END
   END io_out[25]
   PIN io_out[26]
@@ -852,7 +980,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 2287.260 2.400 2288.460 ;
+        RECT -4.800 2793.860 2.400 2795.060 ;
     END
   END io_out[26]
   PIN io_out[27]
@@ -860,7 +988,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1818.060 2.400 1819.260 ;
+        RECT -4.800 2517.780 2.400 2518.980 ;
     END
   END io_out[27]
   PIN io_out[28]
@@ -868,7 +996,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1348.180 2.400 1349.380 ;
+        RECT -4.800 2241.700 2.400 2242.900 ;
     END
   END io_out[28]
   PIN io_out[29]
@@ -876,7 +1004,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 878.980 2.400 880.180 ;
+        RECT -4.800 1965.620 2.400 1966.820 ;
     END
   END io_out[29]
   PIN io_out[2]
@@ -892,7 +1020,7 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 527.420 2.400 528.620 ;
+        RECT -4.800 1689.540 2.400 1690.740 ;
     END
   END io_out[30]
   PIN io_out[31]
@@ -900,9 +1028,49 @@ MACRO user_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 175.180 2.400 176.380 ;
+        RECT -4.800 1413.460 2.400 1414.660 ;
     END
   END io_out[31]
+  PIN io_out[32]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 1137.380 2.400 1138.580 ;
+    END
+  END io_out[32]
+  PIN io_out[33]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 861.300 2.400 862.500 ;
+    END
+  END io_out[33]
+  PIN io_out[34]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 585.220 2.400 586.420 ;
+    END
+  END io_out[34]
+  PIN io_out[35]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 309.140 2.400 310.340 ;
+    END
+  END io_out[35]
+  PIN io_out[36]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT -4.800 102.420 2.400 103.620 ;
+    END
+  END io_out[36]
   PIN io_out[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
