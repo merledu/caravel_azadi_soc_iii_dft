@@ -61,9 +61,9 @@ module user_project_wrapper #(
     input  [127:0] la_oenb,
 
     // IOs
-    input  [`MPRJ_IO_PADS-2:0] io_in,
-    output [`MPRJ_IO_PADS-2:0] io_out,
-    output [`MPRJ_IO_PADS-2:0] io_oeb,
+    input  [`MPRJ_IO_PADS-1:0] io_in,
+    output [`MPRJ_IO_PADS-1:0] io_out,
+    output [`MPRJ_IO_PADS-1:0] io_oeb,
 
     // Analog (direct connection to GPIO pad---use with caution)
     // Note that analog I/O is not available on the 7 lowest-numbered
@@ -112,7 +112,7 @@ azadi_soc_top_caravel mprj (
 
     // IO Pads
 	
-    .io_in(io_in[36:0]),
+    .io_in(io_in),
     .io_out(io_out),
     .io_oeb(io_oeb),
   //  .analog_io(analog_io),
